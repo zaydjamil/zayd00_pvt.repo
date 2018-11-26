@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>decodeIT - A tech blogging site.</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="img/icons/blog_icon.png"/>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<link href="style.css" rel="stylesheet">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+    <div id="banner-wrapper">
+    	<header>
+    		<div id="header-inner">
+    			<a href="index.html" id="logo"><h4>decodeIT</h4></a>
+    			<nav>
+    				<a href="#" id="menu-icon"></a>
+    				<ul>
+    					<li><a href="index.html" class="current">Home</a></li>
+    					<li><a href="#">Blogs</a></li>
+    					<li><a href="#">Discussions</a></li>
+    					<li><a href="#">About</a></li>
+    					<button class="button"><a href="#">Subscribe</a></button>
+    				</ul>
+    			</nav>	
+    		</div>	
+    	</header>
+
+<!--- Slider Start -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li><img src="img/pics/html-css-js1.jpg"></li>
+					<li><img src="img/pics/marsrover_cc.jpg"></li>
+				</ul>
+			</section>
+			<!-- <div class="ws_bullets"><div>
+				<a href="#" title="web"><span><img src="img/pics/html-css-js1.jpg">1</span></a>
+				<a href="#" title="curiosity"><span><img src="img/pics/marsrover_cc.jpg">2</span></a>
+			</div></div> -->
+		</div> 
+	
+<!-- Free jQuery Slider HEAD section -->
+
+<!--- ADD IMAGE SLIDER HTML HERE -->
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 100
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- Slider End -->
+    </div>
+    <section class="one-third">
+    	<div class="icon-wrap">
+    		<td><i class="fa fa-code"></i></td>
+    	</div>
+    	<h3>Technology</h3>
+    </section>
+    <section class="one-third">
+    	<div class="icon-wrap">
+    		<td><i class="fa fa-rocket"></i></td>
+    	</div>
+    	<h3>Science</h3>
+    </section>
+    <section class="one-third">
+    	<div class="icon-wrap">
+    		<td><i class="material-icons">whatshot</i></td>
+    	</div>	
+    	<h3>Trending</h3>
+    </section>
+    <section class="recent">
+    	<h2>Recent Blogs:</h2>
+    </section>
+ <div class="clearfix-padding"></div>
+    <section class="one-third-padding">
+    	<h3>Career in Web Development</h3><br>
+    	<img src="img/pics/website-development-500x500.png">
+    	<p>Web development is one of the most demanding career in today's world.</p>
+    </section>
+    <section class="one-third-padding">
+    	<h3>The Journey of Curiosity.</h3><br><br>
+    	<img src="img/pics/35ea4b39-f63c-4977-dae0-f010606cf48e.jpg">
+    	<p>The journey of Curiosity started on November 26, 2011 from Cape Canaveral.</p>
+    </section>
+    <section class="one-third-padding">
+    	<br><h3>'Kilogram' : Redefined</h3><br><br><br>
+    	<img src="img/pics/redefine-kilogram-1.jpg">
+    	<p>After more than 100 years, why scientist redefined the value of Kilogram.</p> 
+    </section>
+    </div>
+  <div class="clearfix-padding"></div>
+    <footer>
+    	<div id="banner-wrapper">
+    		<div class="icon-text">
+    			<div class="icon-text-icon">
+    				<ul class="footer-nav">
+    					<li><a href="index.html">Home</a></li>
+    					<li><a href="#">Blogs</a></li>
+    					<li><a href="#">Discussions</a></li>
+    					<li><a href="#">About</a></li>
+    				</ul>	
+    			</div> 
+    		    <div class="icon-text-text">
+    			     <ul class="social">
+    			     	<li><a href="zaidjamil04@gmail.com"><i class="fa fa-envelope"></i></a></li>
+    			     	<li><a href="zaidjamil"><i class="fa fa-facebook"></i></a></li>
+    			     	<li><a href="zaidjamil99@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+    			     	<li><a href="zaidjamil"><i class="fa fa-youtube"></i></a></li>
+    			     </ul>			 				
+    			</div>   
+    		</div>	
+    	</div>
+    </footer>
+    <footer class="second">
+    	<p>&copy; decodeIT</p>
+    </footer>
+</body>
+</html>
